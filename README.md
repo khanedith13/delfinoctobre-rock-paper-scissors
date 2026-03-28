@@ -21,3 +21,10 @@ Input is handled through buttons or interactive controls.
 //computer random choice
 🤖 Computer Choice
 The system generates a random choice for the computer each round.
+
+//result display
+🏆 Result Display
+Clearly shows the result after each round:
+Win ✅
+Loss ❌
+Tie 🤝
