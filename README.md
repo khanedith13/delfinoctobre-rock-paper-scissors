@@ -17,3 +17,7 @@ allowing users to enjoy the game across different devices through html, bootstra
 Players can select:
 Rock ✊ | Paper ✋ | Scissors ✌️
 Input is handled through buttons or interactive controls.
+
+//computer random choice
+🤖 Computer Choice
+The system generates a random choice for the computer each round.
