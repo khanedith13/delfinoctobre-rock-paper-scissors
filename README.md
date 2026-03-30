@@ -52,7 +52,6 @@
         Mobile 📲
 
 
-
 Clone the Repository:
 
     git clone https://github.com/khanedith13/delfinoctobre-rock-paper-scissors
@@ -63,9 +62,8 @@ Clone the Repository:
     HTML with Bootstrap Framework, CSS, JavaScript
 
 
-
 👨‍💻 Author
 
     Developed by Delfin G. Octobre / Khan Edith | CodeX
 
-GitHUb Profile: https://github.com/khanedith13
+GitHub Profile: https://github.com/khanedith13
