@@ -1,6 +1,3 @@
-//all about the game mechanics and features of the game.
-
-//game title 
 ✊✋✌️ Jak N Poy
 
 //description
