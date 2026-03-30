@@ -54,3 +54,9 @@ Mobile 📲
 //access
 Clone the Repository
 git clone https://github.com/khanedith13/delfinoctobre-rock-paper-scissors
+
+
+🛠️ Built With
+HTML with Bootstrap Framework
+CSS
+JavaScript
