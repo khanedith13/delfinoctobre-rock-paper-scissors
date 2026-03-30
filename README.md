@@ -49,3 +49,8 @@ Works smoothly on:
 Desktop 💻
 Tablet 📱
 Mobile 📲
+
+
+//access
+Clone the Repository
+git clone https://github.com/khanedith13/delfinoctobre-rock-paper-scissors
