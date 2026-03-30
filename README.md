@@ -28,3 +28,11 @@ Clearly shows the result after each round:
 Win ✅
 Loss ❌
 Tie 🤝
+
+//score
+📊 Score Tracking
+Keeps track of:
+Wins
+Losses
+Ties
+Displays scores in real-time.
