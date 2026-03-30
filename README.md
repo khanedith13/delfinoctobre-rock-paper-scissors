@@ -7,7 +7,7 @@ allowing users to enjoy the game across different devices through html, bootstra
 
 🎮 Features
 
-*👤 User Input
+👤 User Input
     Players can select:
 
         Rock ✊ | Paper ✋ | Scissors ✌️
@@ -16,7 +16,7 @@ Input is handled through buttons or interactive controls.
 
 🤖 Computer Choice
 
-The system generates a random choice for the computer each round.
+    The system generates a random choice for the computer each round.
 
 
 🏆 Result Display
