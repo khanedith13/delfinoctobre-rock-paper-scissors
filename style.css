@@ -9,20 +9,34 @@ body {
     font-family: Arial, sans-serif;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .game-logo {
-    max-width: 20px;
-    height: auto;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 20%;
+    border: 2px solid rgba(255,255,255,0.3);
     transition: transform 0.3s ease;
 }
 
 .game-logo:hover {
     transform: scale(1.05);
+}
+
+.game-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.tagline {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.7);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .game-card {
@@ -128,6 +142,15 @@ body {
     }
 
     .game-logo {
-        max-width: 150px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .game-title {
+        font-size: 1.4rem;
+    }
+
+    .tagline {
+        font-size: 0.8rem;
     }
 }

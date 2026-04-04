@@ -1,6 +1,6 @@
 let userScore = 0;
 let computerScore = 0;
-let gameNumber = 1;
+let gameNumber = 0;
 
 let userHistory = {
     rock: 0,
@@ -84,13 +84,13 @@ function play(userChoice) {
 function resetGame() {
     userScore = 0;
     computerScore = 0;
-    gameNumber = 1;
+    gameNumber = 0;
 
     userHistory = { rock: 0, paper: 0, scissor: 0 };
 
     document.getElementById("user-score").textContent = 0;
     document.getElementById("computer-score").textContent = 0;
-    document.getElementById("game-number").textContent = 1;
+    document.getElementById("game-number").textContent = 0;
 
     document.getElementById("result").textContent = "Game Reset!";
     document.getElementById("result").classList.remove("bounce", "shake");
