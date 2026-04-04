@@ -6,38 +6,45 @@
     <title>Jak N Poy | Game</title>
     <link rel="shortcut icon" href="/logos/favicon.ico" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div>
-        <h1>Jak N Poy</h1>
-        <p>Beat the Computer!</p>
+<body class="container min-vh-100 d-flex justify-content-center align-items-center">
+    <div class="game-card text-center">
+
+        <div class="d-flex align-items-center justify-content-center gap-3 mb-2">
+            <img src="logos/jakNpoy_logo.png" alt="Jak N Poy Logo" class="game-logo">
+            <div class="text-start">
+                <h1 class="game-title m-0">Jak N Poy</h1>
+                <p class="tagline m-0">Can You Outsmart the Computer?</p>
+            </div>
+        </div>
 
         <div>
-            <div>
-                <p>Computer Score: <span id="computer-score">0</span></p>
-                <p>Your Score: <span id="user-score">0</span></p>
+            <div class="d-flex justify-content-between my-3">
+                <p>🤖 Computer Score: <span id="computer-score">0</span></p>
+                <p>👤 Your Score: <span id="user-score">0</span></p>
             </div>
 
-            <div>
-                <p id="computer_choice"></p>
-                <p>VS</p>
-                <p id="user_choice"></p>
+            <div class="my-4 d-flex justify-content-center align-items-center gap-4">
+                <p id="computer_choice" class="computer_choice">?</p>
+                <p class="vs-text">VS</p>
+                <p id="user_choice" class="user_choice">?</p>
             </div>   
             
             <div>
-                <button onclick="play('rock')">👊</button>
-                <button onclick="play('paper')">🫱</button>
-                <button onclick="play('scissor')">✌️</button>
+                <button class="btn btn-light choice-btn" onclick="play('rock')">👊</button>
+                <button class="btn btn-light choice-btn" onclick="play('paper')">🫱</button>
+                <button class="btn btn-light choice-btn" onclick="play('scissor')">✌️</button>
             </div>
 
-            <div id="result"></div>
+            <div id="result" class="result">Make your move!</div>
 
-            <div>
-                <p>Game: <span id="game-number">1</span></p>
-                <button id="reset-game">Reset Game</button>
+            <div class="game-info d-flex justify-content-between align-items-center mt-4">
+                <p class="mb-0 game-text">Game: <span id="game-number">0</span></p>
+                <button class="btn btn-danger btn-sm reset-btn" onclick="resetGame()">Reset Game</button>
             </div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
