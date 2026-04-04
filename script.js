@@ -98,3 +98,12 @@ function resetGame() {
     document.getElementById("user_choice").textContent = "❔";
     document.getElementById("computer_choice").textContent = "❔";
 }
+
+function emoji(choice) {
+    switch (choice) {
+        case "rock": return "👊";
+        case "paper": return "🫱";
+        case "scissor": return "✌️";
+        default: return "❔";
+    }
+}
